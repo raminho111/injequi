@@ -59,7 +59,7 @@
 "dashboard.hardware_model" = "Modelo do hardware";
 "dashboard.access_footer" = "O acesso só é considerado bem-sucedido depois que o arquivo do sistema é aberto para leitura e escrita.";
 "dashboard.unsupported_footer" = "O iOS %@ (%@) está fora do intervalo verificado. Compatível com: iOS 17.0–17.7.x, iOS 18.0–18.7.1, iOS 26.0–26.6.1, iOS 27.0 Developer Beta 1–4 e Public Beta 1–2.";
-"dashboard.app_browser" = "Navegador de dados dos apps";
+"dashboard.app_browser" = "Injector Tab";
 "dashboard.browser" = "Navegador de arquivos";
 "dashboard.open_browser" = "Abrir navegador de arquivos";
 "dashboard.browser_footer" = "Navegue e leia dados de todos os aplicativos e contêineres do sistema neste dispositivo.";
@@ -353,7 +353,7 @@
 "logs.empty_title" = "Nenhuma entrada de log";
 "logs.empty_message" = "A atividade do exploit e do editor aparecerá aqui durante esta sessão.";
 
-"browser.title" = "Navegador de dados dos apps";
+"browser.title" = "Injector Tab";
 "browser.workspace" = "Workspace do injector";
 "browser.workspace_subtitle" = "Patches e arquivos disponíveis em No Meu iPhone";
 "browser.loading" = "Carregando…";
