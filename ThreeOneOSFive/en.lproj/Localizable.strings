@@ -14,13 +14,11 @@
 "common.back" = "Voltar";
 "common.finish" = "Finalizar";
 
-"update.title" = "Atualização disponível";
-"update.message" = "A versão 3105 %@ está disponível no GitHub.";
-"update.agree" = "OK";
+
 "update.dismiss" = "Não mostrar novamente";
 "patch.error.wrong_password" = "Senha incorreta.";
 
-"attribution.title" = "Sobre o 3105";
+"attribution.title" = "Sobre o Injector";
 "attribution.subtitle" = "Informações do projeto";
 "attribution.link_section" = "Link do projeto";
 "attribution.url" = "URL";
@@ -31,20 +29,20 @@
 "onboarding.language_title" = "Escolha seu idioma";
 "onboarding.language_subtitle" = "Você poderá alterar isso mais tarde em Ajustes.";
 "onboarding.language_hint" = "Selecionado: %@";
-"onboarding.welcome_title" = "Bem-vindo ao 3105";
-"onboarding.welcome_message" = "Desenvolvido por YangJiii";
-"onboarding.welcome_badge" = "Identidade oficial do 3105";
+"onboarding.welcome_title" = "Bem-vindo ao Injector";
+"onboarding.welcome_message" = "Desenvolvido por ramoss4m";
+"onboarding.welcome_badge" = "Identidade oficial do injector";
 "onboarding.versions_title" = "Versões do iOS compatíveis";
-"onboarding.versions_subtitle" = "O 3105 foi verificado nas versões abaixo. Builds não compatíveis são bloqueadas.";
+"onboarding.versions_subtitle" = "O injector foi verificado nas versões abaixo. Builds não compatíveis são bloqueadas.";
 "onboarding.versions_footer" = "Este dispositivo: iOS %@ (%@)";
 "onboarding.beta" = "Beta";
 "onboarding.developer_beta" = "Beta para desenvolvedores %@";
 "onboarding.public_beta" = "Beta público %@";
 "onboarding.install_title" = "Requisitos do certificado";
-"onboarding.install_message" = "O 3105 requer um método de assinatura compatível para acessar os recursos do dispositivo.";
+"onboarding.install_message" = "O injector requer um método de assinatura compatível para acessar os recursos do dispositivo.";
 "onboarding.install_ok" = "Funciona com certificados empresariais, incluindo eSign e instalações empresariais semelhantes.";
 "onboarding.install_bad" = "Não funciona com SideStore, AltStore, 3uTools ou LiveContainer.";
-"onboarding.install_jailbreak" = "No iOS 17 até o iOS 18.7.1, o 3105 não funcionará se o dispositivo estiver com jailbreak.";
+"onboarding.install_jailbreak" = "No iOS 17 até o iOS 18.7.1, o injector não funcionará se o dispositivo estiver com jailbreak.";
 "onboarding.install_footer" = "Use um certificado compatível em um dispositivo sem jailbreak antes de continuar.";
 
 "dashboard.exploit_access" = "Acesso ao exploit";
@@ -73,7 +71,7 @@
 "dashboard.kernel_running" = "Ativando…";
 "dashboard.kernel_active" = "Ativo";
 "dashboard.kernel_inactive" = "Inativo";
-"dashboard.enterprise_signing" = "O 3105 funciona apenas quando assinado com um certificado empresarial. SideStore, AltStore, 3uTools e LiveContainer não são compatíveis.";
+"dashboard.enterprise_signing" = "O injector funciona apenas quando assinado com um certificado empresarial. SideStore, AltStore, 3uTools e LiveContainer não são compatíveis.";
 "dashboard.features" = "Recursos";
 "dashboard.features_footer" = "Ative Cleaner ou Wallpapers para exibi-los na navegação do aplicativo.";
 "tab.home" = "Início";
@@ -101,7 +99,7 @@
 "cleaner.clean_button" = "Limpar %@";
 "cleaner.cleaning" = "Limpando…";
 "cleaner.confirm_title" = "Excluir dados temporários?";
-"cleaner.confirm_message" = "O 3105 excluirá permanentemente Library/Caches e tmp de %lld apps selecionados (%@). Feche esses apps primeiro. Eles podem abrir mais lentamente enquanto recriam os caches. Esta ação não pode ser desfeita.";
+"cleaner.confirm_message" = "O injector excluirá permanentemente Library/Caches e tmp de %lld apps selecionados (%@). Feche esses apps primeiro. Eles podem abrir mais lentamente enquanto recriam os caches. Esta ação não pode ser desfeita.";
 "cleaner.confirm_action" = "Limpar agora";
 "cleaner.result_title" = "Limpeza concluída";
 "cleaner.result_message" = "%@ liberados removendo %lld arquivos. %lld itens ou apps não puderam ser limpos.";
@@ -115,11 +113,11 @@
 "patch.title" = "Patches";
 "patch.add" = "Adicionar projeto de patch";
 "patch.new" = "Novo patch";
-"patch.import" = "Importar .3105";
-"patch.export" = "Exportar .3105";
+"patch.import" = "Importar .injector";
+"patch.export" = "Exportar .injector";
 "patch.edit" = "Editar";
 "patch.empty_title" = "Nenhum projeto de patch";
-"patch.empty_message" = "Crie um projeto ou importe um pacote .3105.";
+"patch.empty_message" = "Crie um projeto ou importe um pacote .injector.";
 "patch.locked_project" = "Patch bloqueado";
 "patch.tap_to_unlock" = "Toque para inserir a senha";
 "patch.password_protected" = "Protegido por senha";
@@ -144,13 +142,13 @@
 "patch.private_hidden_title" = "Patch privado";
 "patch.private_hidden_message" = "O autor ocultou os arquivos e caminhos de destino deste patch. Você pode aplicá-lo ou restaurá-lo sem visualizar seu conteúdo.";
 "patch.target_bundle" = "Bundle de destino";
-"patch.workspace_bundle_footer" = "O 3105 cria esta pasta de bundle no workspace editável do patch. UUIDs dos contêineres nunca são armazenados.";
+"patch.workspace_bundle_footer" = "O injector cria esta pasta de bundle no workspace editável do patch. UUIDs dos contêineres nunca são armazenados.";
 "patch.captured_content" = "Conteúdo capturado";
-"patch.workspace_edit_footer" = "Após a criação, gerencie toda a árvore do bundle pelo workspace do 3105 em Arquivos.";
+"patch.workspace_edit_footer" = "Após a criação, gerencie toda a árvore do bundle pelo workspace do injector em Arquivos.";
 "patch.workspace" = "Workspace";
 "patch.open_workspace" = "Abrir arquivos do patch";
-"patch.workspace_detail_footer" = "Edite esta árvore de bundle diretamente. Aplicar e Exportar sincronizam automaticamente o conteúdo com o pacote .3105 criptografado.";
-"patch.legacy_footer" = "Patch legado v1. Ele continua totalmente utilizável nesta versão do 3105.";
+"patch.workspace_detail_footer" = "Edite esta árvore de bundle diretamente. Aplicar e Exportar sincronizam automaticamente o conteúdo com o pacote .injector criptografado.";
+"patch.legacy_footer" = "Patch legado v1. Ele continua totalmente utilizável nesta versão do injector.";
 "patch.files" = "Arquivos";
 "patch.folders" = "Pastas";
 "patch.rules" = "Regras";
@@ -197,11 +195,11 @@
 "patch.restore_confirm_title" = "Restaurar arquivos originais?";
 "patch.restore_confirm_message" = "Feche os apps de destino primeiro. Os arquivos retornarão ao estado anterior ao patch; arquivos adicionados pelo patch serão removidos.";
 "patch.restore_changed_title" = "Alguns arquivos foram alterados";
-"patch.restore_changed_message" = "%lld arquivos foram alterados após a aplicação do patch:\n%@\n\nO 3105 fará uma cópia do estado atual e reverterá tudo caso a restauração falhe.";
-"patch.restore_changed_private_message" = "%lld arquivos privados do patch foram alterados após a aplicação. Seus caminhos permanecem ocultos. O 3105 salvará o estado atual antes da restauração.";
+"patch.restore_changed_message" = "%lld arquivos foram alterados após a aplicação do patch:\n%@\n\nO injector fará uma cópia do estado atual e reverterá tudo caso a restauração falhe.";
+"patch.restore_changed_private_message" = "%lld arquivos privados do patch foram alterados após a aplicação. Seus caminhos permanecem ocultos. O injector salvará o estado atual antes da restauração.";
 "patch.restore_changed_action" = "Restaurar mesmo assim";
 "patch.reset_confirm_title" = "Redefinir arquivos para o pacote?";
-"patch.reset_confirm_message" = "Feche os apps de destino primeiro. As alterações atuais serão substituídas pelo conteúdo exato aplicado originalmente deste pacote .3105.";
+"patch.reset_confirm_message" = "Feche os apps de destino primeiro. As alterações atuais serão substituídas pelo conteúdo exato aplicado originalmente deste pacote .injector.";
 "patch.created_message" = "O projeto do patch foi criado.";
 "patch.updated_message" = "O projeto do patch foi atualizado sem alterar sua senha.";
 "patch.imported_message" = "O pacote foi instalado com sucesso. Você pode abri-lo em Instalados.";
@@ -210,8 +208,8 @@
 "patch.applied_message" = "Todas as regras do patch foram aplicadas e os originais foram salvos.";
 "patch.restored_message" = "Os arquivos originais foram restaurados.";
 "patch.reset_message" = "Todos os arquivos do patch foram redefinidos para o estado aplicado do pacote.";
-"patch.error.unsupported_format" = "Este não é um pacote de patch .3105 válido.";
-"patch.error.unsupported_version" = "Este patch requer uma versão mais recente do 3105. Atualize o aplicativo antes de importá-lo.";
+"patch.error.unsupported_format" = "Este não é um pacote de patch .injector válido.";
+"patch.error.unsupported_version" = "Este patch requer uma versão mais recente do injector. Atualize o aplicativo antes de importá-lo.";
 "patch.error.password_or_corrupt" = "A senha está incorreta ou o pacote foi modificado.";
 "patch.error.invalid_bundle" = "Insira um identificador de bundle de app válido, não um UUID de contêiner.";
 "patch.error.unsafe_path" = "O destino deve ser um caminho seguro relativo ao contêiner de dados do app.";
@@ -232,7 +230,7 @@
 "patch.error.apply" = "O patch não pôde ser aplicado. Todas as gravações anteriores foram revertidas.";
 "patch.error.restore" = "Os originais não puderam ser restaurados com segurança. Nenhum destino não verificado foi sobrescrito.";
 "patch.error.reset" = "Os arquivos não puderam ser redefinidos para o estado aplicado do pacote. Todas as gravações parciais foram revertidas.";
-"patch.error.invalid_import_link" = "Este link de importação do patch é inválido. Use um link HTTPS seguro para um pacote .3105.";
+"patch.error.invalid_import_link" = "Este link de importação do patch é inválido. Use um link HTTPS seguro para um pacote .injector.";
 "patch.error.remote_import" = "O patch não pôde ser baixado com segurança. Verifique o link e tente novamente.";
 
 "accessibility.open_logs" = "Abrir logs";
@@ -240,7 +238,7 @@
 "accessibility.requesting_access" = "Solicitando acesso ao exploit";
 "accessibility.open_editor_hint" = "Abre o editor de recursos do MobileGestalt";
 "accessibility.run_exploit_hint" = "Solicita o acesso de escrita necessário pelo editor do Gestalt";
-"accessibility.open_github" = "Abrir 3105 no GitHub";
+"accessibility.open_github" = "Abrir injector no GitHub";
 "accessibility.open_profile" = "Abrir perfil de %@";
 "accessibility.log_entry" = "Entrada de log %lld: %@";
 
@@ -279,7 +277,7 @@
 "settings.token_footer" = "Disponível após o acesso ao exploit ser concedido.";
 "settings.credits" = "Créditos";
 "settings.social_media" = "Redes sociais";
-"social.github_role" = "Código-fonte do 3105";
+"social.github_role" = "Código-fonte do injector";
 "social.iosvn_role" = "Comunidade iOSVN";
 "credit.yangjiii" = "Desenvolvedor e designer";
 "credit.forcequit" = "exploit bad_query";
@@ -356,7 +354,7 @@
 "logs.empty_message" = "A atividade do exploit e do editor aparecerá aqui durante esta sessão.";
 
 "browser.title" = "Navegador de dados dos apps";
-"browser.workspace" = "Workspace do 3105";
+"browser.workspace" = "Workspace do injector";
 "browser.workspace_subtitle" = "Patches e arquivos disponíveis em No Meu iPhone";
 "browser.loading" = "Carregando…";
 "browser.empty" = "Nenhum bundle de aplicativo pôde ser resolvido. Toque em Tentar novamente para verificar outra vez.";
@@ -494,9 +492,9 @@
 "tab.installed" = "Instalados";
 "installed.search" = "Buscar patches ou papéis de parede";
 "installed.empty_title" = "Nada instalado";
-"installed.empty_message" = "Importe um patch .3105 ou pacote de papel de parede .tendies para começar.";
+"installed.empty_message" = "Importe um patch .injector ou pacote de papel de parede .tendies para começar.";
 "installed.loading" = "Carregando itens instalados…";
-"installed.kind.patch" = "Patch · .3105";
+"installed.kind.patch" = "Patch · .injector";
 "installed.kind.wallpaper" = "Papel de parede · .tendies";
 "tab.search" = "Buscar";
 "repository.explore" = "Explorar";
@@ -510,7 +508,7 @@
 "repository.tools_settings_footer" = "As ferramentas ativadas aparecem em Explorar em vez de ocupar uma aba.";
 "repository.open_tool_hint" = "Abre esta ferramenta integrada";
 "repository.no_sources_title" = "Nenhuma fonte";
-"repository.no_sources_message" = "Adicione um repositório HTTPS confiável para descobrir patches .3105.";
+"repository.no_sources_message" = "Adicione um repositório HTTPS confiável para descobrir patches .injector.";
 "repository.no_packages_title" = "Nenhum pacote disponível";
 "repository.no_packages_message" = "Atualize suas fontes habilitadas ou verifique o status delas em Fontes.";
 "repository.featured" = "Destaques";
@@ -558,7 +556,7 @@
 "repository.download_package" = "Baixar";
 "repository.downloading_elapsed" = "Baixando · %@";
 "repository.update_package" = "Atualizar";
-"repository.install_footer" = "O 3105 verifica HTTPS, SHA-256, conteúdo do pacote e compatibilidade com o iOS antes da importação.";
+"repository.install_footer" = "O injector verifica HTTPS, SHA-256, conteúdo do pacote e compatibilidade com o iOS antes da importação.";
 "repository.wallpaper_imported" = "O pacote de papel de parede foi verificado e adicionado a Instalados. Abra-o lá para revisar e aplicar.";
 "repository.by_version" = "%@ · Versão %@";
 "repository.version_source" = "Versão %@ · %@";
@@ -566,14 +564,14 @@
 "repository.source_url_footer" = "Insira a URL HTTPS completa para um manifesto JSON de repositório versão 1.";
 "repository.add" = "Adicionar";
 "repository.error.insecure_url" = "Use uma URL HTTPS pública sem credenciais, hosts locais ou endereços IP.";
-"repository.error.unsupported_schema" = "Este repositório requer uma versão mais recente do 3105.";
+"repository.error.unsupported_schema" = "Este repositório requer uma versão mais recente do injector.";
 "repository.error.invalid_manifest" = "O manifesto do repositório é inválido ou grande demais.";
 "repository.error.invalid_package" = "O repositório contém metadados de pacote inválidos.";
 "repository.error.duplicate_package" = "O repositório contém identificadores ou UUIDs de pacotes duplicados.";
 "repository.error.source_exists" = "Esta fonte já foi adicionada.";
 "repository.error.source_unavailable" = "A fonte ou o pacote não pôde ser baixado com segurança.";
 "repository.error.checksum" = "O pacote baixado não corresponde ao SHA-256 ou tamanho declarado.";
-"repository.error.identity" = "O UUID do pacote .3105 baixado não corresponde aos metadados do repositório.";
+"repository.error.identity" = "O UUID do pacote .injector baixado não corresponde aos metadados do repositório.";
 "repository.error.incompatible" = "Este pacote não declara suporte para a build atual do iOS.";
 "repository.error.import_unavailable" = "Conclua a operação atual do patch antes de importar outro pacote.";
 
@@ -601,16 +599,16 @@
 "wallpaper.recovery_summary" = "%lld descritores instalados";
 "wallpaper.restore" = "Restaurar";
 "wallpaper.restored" = "Restaurado";
-"wallpaper.recovery_footer" = "A restauração remove apenas as pastas de descritores criadas por essa instalação do 3105. Papéis de parede existentes nunca fazem parte da lista de remoção.";
+"wallpaper.recovery_footer" = "A restauração remove apenas as pastas de descritores criadas por essa instalação do injector. Papéis de parede existentes nunca fazem parte da lista de remoção.";
 "wallpaper.safety" = "Segurança";
 "wallpaper.additive_only" = "Adiciona novos descritores sem substituir o Collections";
 "wallpaper.uuid_dynamic" = "Resolve com.apple.PosterBoard dinamicamente";
 "wallpaper.archive_validation" = "Verifica caminhos ZIP, tamanhos, links simbólicos e CRC antes da instalação";
-"wallpaper.ios27_footer" = "O PosterBoard depende da build. O 3105 descobre o layout atual da Store em vez de assumir a geração 61, mas alguns papéis de parede baseados em plugins ainda podem ser incompatíveis com o iOS 27.";
+"wallpaper.ios27_footer" = "O PosterBoard depende da build. O injector descobre o layout atual da Store em vez de assumir a geração 61, mas alguns papéis de parede baseados em plugins ainda podem ser incompatíveis com o iOS 27.";
 "wallpaper.install" = "Aplicar";
 "wallpaper.install_warning_title" = "Instalar este pacote de papel de parede?";
 "wallpaper.install_warning_message" = "Aplicar “%@” com %lld papéis de parede no iOS %@ (%@)? Os papéis de parede existentes permanecerão inalterados.";
-"wallpaper.installed_by_3105" = "Papéis de parede adicionados pelo 3105";
+"wallpaper.installed_by_injector" = "Papéis de parede adicionados pelo injector";
 "wallpaper.custom_count" = "Papéis de parede adicionados";
 "wallpaper.reset" = "Redefinir Collections";
 "wallpaper.reset_footer" = "Remove coleções personalizadas, incluindo as adicionadas por outras ferramentas. As coleções padrão da Apple são mantidas.";
@@ -622,9 +620,9 @@
 "wallpaper.no_custom_title" = "Nenhuma coleção personalizada";
 "wallpaper.no_custom_message" = "Não há papéis de parede personalizados para redefinir.";
 "wallpaper.restore_title" = "Restaurar esta instalação?";
-"wallpaper.restore_message" = "Isso removerá %lld pastas de descritores adicionadas anteriormente pelo 3105. Os papéis de parede existentes antes da instalação serão preservados.";
+"wallpaper.restore_message" = "Isso removerá %lld pastas de descritores adicionadas anteriormente pelo injector. Os papéis de parede existentes antes da instalação serão preservados.";
 "wallpaper.delete_title" = "Remover pacote importado?";
-"wallpaper.delete_message" = "“%@” será removido da área temporária do 3105. Os papéis de parede instalados não serão afetados.";
+"wallpaper.delete_message" = "“%@” será removido da área temporária do injector. Os papéis de parede instalados não serão afetados.";
 "wallpaper.importing" = "Validando pacotes .tendies…";
 "wallpaper.installing" = "Instalando descritores com segurança…";
 "wallpaper.restoring" = "Redefinindo papéis de parede…";
@@ -635,7 +633,7 @@
 "wallpaper.install_done_opened" = "O PosterBoard foi aberto para atualizar suas coleções. Feche-o pelo seletor de apps e depois verifique o seletor de papel de parede da Tela Bloqueada.";
 "wallpaper.install_done_manual" = "Abra o seletor de papel de parede da Tela Bloqueada para atualizar o PosterBoard. Se o papel de parede não aparecer, feche o PosterBoard pelo seletor de apps e tente novamente.";
 "wallpaper.restore_done_title" = "Instalação restaurada";
-"wallpaper.restore_done_message" = "Os descritores adicionados pelo 3105 foram removidos. O PosterBoard recebeu uma solicitação para atualizar.";
+"wallpaper.restore_done_message" = "Os descritores adicionados pelo injector foram removidos. O PosterBoard recebeu uma solicitação para atualizar.";
 "wallpaper.operation_failed" = "Falha na operação do papel de parede";
 "wallpaper.error.unsafe_container" = "O PosterBoard retornou um caminho de contêiner inseguro ou inesperado.";
 "wallpaper.error.store_unavailable" = "A extensão Store do PosterBoard não está disponível nesta build.";
@@ -643,12 +641,12 @@
 "wallpaper.error.package" = "Este não é um pacote .tendies compatível.";
 "wallpaper.error.archive" = "O arquivo está corrompido ou contém um caminho inseguro.";
 "wallpaper.error.symlink" = "Pacotes de papel de parede e pastas de destino não podem conter links simbólicos.";
-"wallpaper.error.size" = "O pacote de papel de parede excede os limites seguros de tamanho ou quantidade de itens do 3105.";
+"wallpaper.error.size" = "O pacote de papel de parede excede os limites seguros de tamanho ou quantidade de itens do injector.";
 "wallpaper.error.no_descriptors" = "Nenhum descritor de papel de parede compatível foi encontrado neste pacote.";
-"wallpaper.error.access" = "O 3105 não conseguiu obter acesso verificado de leitura/escrita ao com.apple.PosterBoard.";
+"wallpaper.error.access" = "O injector não conseguiu obter acesso verificado de leitura/escrita ao com.apple.PosterBoard.";
 "wallpaper.error.backup" = "O diário de recuperação não pôde ser salvo, portanto a instalação foi interrompida.";
 "wallpaper.error.install" = "A instalação falhou e todos os descritores adicionados durante esta tentativa foram revertidos.";
-"wallpaper.error.restore" = "O 3105 não conseguiu remover com segurança todos os descritores desta instalação.";
+"wallpaper.error.restore" = "O injector não conseguiu remover com segurança todos os descritores desta instalação.";
 "wallpaper.error.unknown" = "Ocorreu um erro inesperado. Consulte os Logs da sessão para obter detalhes.";
 
 "repository.for_you" = "Para você";
@@ -658,7 +656,7 @@
 "repository.published" = "Publicado";
 "repository.more_patches" = "Mais pacotes";
 "repository.utilities" = "Utilitários";
-"repository.home_no_sources_message" = "Adicione uma fonte para preencher a página inicial com patches do 3105 com imagens.";
+"repository.home_no_sources_message" = "Adicione uma fonte para preencher a página inicial com patches do injector com imagens.";
 "repository.home_package_meta" = "%@ · %@";
 "repository.sources_hierarchy_footer" = "Abra uma fonte para navegar pelas tags e pacotes. Adicione apenas repositórios em que você confia.";
 "repository.disable_source" = "Desativar fonte";
