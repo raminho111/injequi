@@ -17,7 +17,7 @@ struct SettingsView: View {
                         AppLogo()
 
                         VStack(alignment: .leading, spacing: 3) {
-                            Text("3105").font(.headline)
+                            Text("Injector").font(.headline)
                             Text(language.text("common.version", appVersion))
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
@@ -104,42 +104,42 @@ struct SettingsView: View {
 
                 Section(language.text("settings.social_media")) {
                     creditsRow(
-                        name: "GitHub",
+                        name: "TikTok",
                         role: language.text("social.github_role"),
-                        url: "https://github.com/YangJiiii/3105"
+                        url: "https://www.tiktok.com/@ramoss4m"
                     )
                     creditsRow(
-                        name: "Cộng Đồng IOSVN",
+                        name: "Discord",
                         role: language.text("social.iosvn_role"),
-                        url: "https://t.me/ioscrackvn"
+                        url: "https://discord.gg/UqkzpdwVC8"
                     )
                 }
 
                 Section(language.text("settings.credits")) {
                     creditsRow(
-                        name: "YangJiii",
+                        name: "R",
                         role: language.text("credit.yangjiii"),
-                        url: "https://x.com/duongduong0908"
+                        url: "https://discord.gg/UqkzpdwVC8"
                     )
                     creditsRow(
-                        name: "0xjohnnydev",
+                        name: "A",
                         role: language.text("credit.filzaslop"),
-                        url: "https://github.com/0xjohnnydev/FilzaSlop"
+                        url: "https://discord.gg/UqkzpdwVC8"
                     )
                     creditsRow(
-                        name: "LeminLimez",
+                        name: "M",
                         role: language.text("credit.pocket_poster"),
-                        url: "https://github.com/leminlimez/Pocket-Poster"
+                        url: "https://discord.gg/UqkzpdwVC8"
                     )
                     creditsRow(
-                        name: "CrazyMind90",
+                        name: "O",
                         role: language.text("credit.sandbox_escape"),
-                        url: "https://github.com/CrazyMind90"
+                        url: "https://discord.gg/UqkzpdwVC8"
                     )
                     creditsRow(
-                        name: "forcequitOS",
+                        name: "S",
                         role: language.text("credit.forcequit"),
-                        url: "https://github.com/forcequitOS"
+                        url: "https://discord.gg/UqkzpdwVC8"
                     )
                 }
             }
